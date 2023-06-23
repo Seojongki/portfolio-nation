@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  auto;  
+}
+
+.home1{
+  margin: auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  width: 600px;
+  margin-top: 5px;
+  padding: 0.5em; /* 여백 반칸 */
+}
+
+.home .nation {
+  width: 25h;  
+  padding: 0.5em; /* 여백 반칸 */
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid #fff;
+  
+}
+
+.home .nation .na1 {
+  width: 50%;
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  display: flex;
+}
+
+.font1{
+  font-weight: bold;
+}
+
+.home .nation .flag{
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+}
+
+.darkmode { 
+  background: #000;
+  color: #fff;
+}
+
+.search{
+  text-align: center;
+  margin: 5px;
+  
+}
+
+button {
+  padding: 10px;
+  text-transform: capitalize;
+  margin: 5px;
+}
+
+input{
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background: #ddd;
+}
+
+.main {
+  height: 90vh;
+}
